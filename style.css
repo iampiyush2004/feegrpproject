@@ -1,0 +1,87 @@
+.nav{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    margin-left: 25px;
+    margin-top:38px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+}
+#navbar{
+    display:flex;
+    background-color: white;
+    
+}
+.men-div-1 img{
+    width: 100%;
+    margin-left: 0px;
+    height:470px;
+    margin-top: 50px;
+}
+.heading{
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+}
+.subheading{
+    text-align: center;
+    color: rgb(88, 87, 87);
+    font-family: "Josefin Sans", sans-serif;
+}
+.dropdown{
+    height: 100%;
+    width:100%;
+    max-width: 160px;
+    min-width: 130px;
+    margin-right: 7px;
+    border: 1px solid #b2afaf;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 18px;
+    margin-left: 1600px;
+}
+.dropdown select{
+    border: 0px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.content{
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-left: 65px;
+}
+.product{
+    position: relative;
+    padding-right: 50px;
+}
+
+.figcap{
+   
+    font-family: "Josefin Sans", sans-serif;
+    padding-top: 450px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 0px;
+    width: 320px;
+}
+
+#jordan{
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+.ajshoe{
+    position: relative;
+
+}
+.ajshoe img{
+    position: absolute;
+    height: 450px;
+    width: 350px;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.ajshoe img.img-front:hover{
+    opacity: 0;
+    cursor: pointer;
+}
